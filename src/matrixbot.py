@@ -14,7 +14,6 @@ while True:
     option = input("Option:")
     if option == "1":
         nameAccount = input("Enter a unique name for your accounts:")
-        
         break
     elif option == "2":
         accountNumber = int(input("Type 1 if you want to create 'infinite accounts' and type 2 if you want to create only 1 \n"))
@@ -28,7 +27,7 @@ while True:
                 time.sleep(0)
                 print("This is your automatically generated password: \n", randomPassword(N=10))
                 time.sleep(5)
-                Areyoustillthere = input("Press Enter if you have created enough accounts \n")
+                AreYouStillHere = input("Press Enter if you have created enough accounts \n")
         if accountNumber == 2:
             print("This is your automatically generated account: \n", randomAccount(N=10))
             print("This is your automatically generated password: \n", randomPassword(N=10))
